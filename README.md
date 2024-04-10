@@ -7,3 +7,4 @@ This repository is the official implementation of VSGNet.
 
 # Introduction
 Framework overview
+![overview](framework/fig.png)
