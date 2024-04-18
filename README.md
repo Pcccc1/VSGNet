@@ -11,7 +11,7 @@ Framework overview
 
 # Forests dataset
 Sample images from the Forests dataset used in our paper
-![dataset](dataset/1.jpg)![dataset](dataset/2.jpg)![dataset](dataset/3.jpg)![dataset](dataset/4.jpg)
+![dataset](dataset/1.jpg)![dataset](dataset/2.jpg)![dataset](dataset/3.jpg)![dataset](dataset/4.jpg)![dataset](dataset/dataset.png)
 
 # Usege
 Our code is being sorted and will be released soon.
