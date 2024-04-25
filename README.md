@@ -3,7 +3,7 @@
 This repository is the official implementation of VSGNet.
 
 # Paper
-under submitting
+_Vision Foundation Model Guided Multi-modal Fusion Network for Remote Sensing Semantic Segmentation_ has submitted to _ISPRS Journal of Photogrammetry and Remote Sensing_
 
 # Introduction
 Framework overview
