@@ -13,9 +13,5 @@ Framework overview
 Sample images from the Forests dataset used in our paper
 ![dataset](dataset/dataset.png)
 
-# Usege
-Our code is being sorted and will be released soon.
-Trained weights are being uploade.
-
 # Acknowledgment
 Our implementation is mainly based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation), [DFormer](https://github.com/VCIP-RGBD/DFormer?tab=readme-ov-file) and [SAM](https://github.com/facebookresearch/segment-anything). Thanks for their authors.
