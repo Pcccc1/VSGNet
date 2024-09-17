@@ -1,0 +1,28 @@
+import torch
+import torch.nn.functional as F
+
+class DiceLoss(torch.nn.Module):
+    def __init__(self, weight=None, ignore_index=None):
+        super(DiceLoss, self).__init__()
+        self.weight = weight
+        self.ignore_index = ignore_index
+
+    def forward(self, input, target):
+        smooth = 1.
+
+        if self.ignore_index is not None:
+            valid_mask = (target != self.ignore_index)
+            valid_mask = valid_mask.unsqueeze(1).expand(-1, input.shape[1], -1, -1)
+            input = input[valid_mask]
+            target = target[valid_mask]
+
+        target = F.one_hot(target, num_classes=input.shape[1]).permute(0, 3, 1, 2).float()
+        input_soft = F.softmax(input, dim=1)
+
+        intersection = (input_soft * target).sum(dim=(2, 3))
+        cardinality = (input_soft + target).sum(dim=(2, 3))
+
+        dice_loss = (2. * intersection + smooth) / (cardinality + smooth)
+        dice_loss = (1 - dice_loss.mean(dim=1)).mean()
+
+        return dice_loss
