@@ -3,7 +3,7 @@
 This repository is the official implementation of VSGNet.
 
 # Paper
-_Vision Foundation Model Guided Multi-modal Fusion Network for Remote Sensing Semantic Segmentation_ has submitted to _Journal of Selected Topics in Applied Earth Observations and Remote Sensing_
+_Vision Foundation Model Guided Multi-modal Fusion Network for Remote Sensing Semantic Segmentation_ has been accepted by _Journal of Selected Topics in Applied Earth Observations and Remote Sensing_ [Link](https://ieeexplore.ieee.org/document/10909146)
 
 # Introduction
 Framework overview
