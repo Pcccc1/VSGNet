@@ -13,5 +13,8 @@ Framework overview
 Sample images from the Forests dataset used in our paper
 ![dataset](dataset/dataset.png)
 
+# CheckPoints
+Model checkpoints are waiting to be uploaded.
+
 # Acknowledgment
 Our implementation is mainly based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation), [DFormer](https://github.com/VCIP-RGBD/DFormer?tab=readme-ov-file) and [SAM](https://github.com/facebookresearch/segment-anything). Thanks for their authors.
