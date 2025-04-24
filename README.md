@@ -23,12 +23,11 @@ if you find our work useful, you can cite our work:
 @ARTICLE{10909146,
   author={Pan, Chen and Fan, Xijian and Tjahjadi, Tardi and Guan, Haiyan and Fu, Liyong and Ye, Qiaolin and Wang, Ruili},
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
-  title={Vision Foundation Model Guided Multi-modal Fusion Network for Remote Sensing Semantic Segmentation}, 
+  title={Vision Foundation Model Guided Multimodal Fusion Network for Remote Sensing Semantic Segmentation}, 
   year={2025},
-  volume={},
+  volume={18},
   number={},
-  pages={1-23},
-  keywords={Semantic segmentation;Sensors;Land surface;Transformers;Vegetation;Remote sensing;Visualization;Semantics;Earth;Computational modeling;Semantic Segmentation;cross-Modal Fusion;Vision Foundation Model;Land Cover Mapping},
+  pages={9409-9431},
+  keywords={Semantic segmentation;Sensors;Land surface;Transformers;Vegetation;Remote sensing;Visualization;Semantics;Earth;Computational modeling;Cross-modal fusion;land cover mapping;semantic segmentation;vision foundation model (VFM)},
   doi={10.1109/JSTARS.2025.3547880}}
-
 ```
